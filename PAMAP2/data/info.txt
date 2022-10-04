@@ -1,0 +1,41 @@
+PAMAP2 CleanedData.csv
+
+Raw data that not been regulized
+
+Shape = (904602, 16)
+
+Keys = ['timestamp', 'activityID', 'heartrate', 'handAcc16_1', 'handAcc16_2',
+       'handAcc16_3', 'handAcc6_1', 'handAcc6_2', 'handAcc6_3', 'handGyro1',
+       'handGyro2', 'handGyro3', 'handMagne1', 'handMagne2', 'handMagne3',
+       'subject_id']
+
+activityIDdict = {1: 'lying',
+              2: 'sitting',
+              3: 'standing',
+              4: 'walking',
+              5: 'running'}
+
+df.info()
+
+    RangeIndex: 904602 entries, 0 to 904601
+    Data columns (total 16 columns):
+    #   Column       Non-Null Count   Dtype  
+    ---  ------       --------------   -----  
+    0   timestamp    904602 non-null  float64
+    1   activityID   904602 non-null  int64  
+    2   heartrate    904602 non-null  float64
+    3   handAcc16_1  904602 non-null  float64
+    4   handAcc16_2  904602 non-null  float64
+    5   handAcc16_3  904602 non-null  float64
+    6   handAcc6_1   904602 non-null  float64
+    7   handAcc6_2   904602 non-null  float64
+    8   handAcc6_3   904602 non-null  float64
+    9   handGyro1    904602 non-null  float64
+    10  handGyro2    904602 non-null  float64
+    11  handGyro3    904602 non-null  float64
+    12  handMagne1   904602 non-null  float64
+    13  handMagne2   904602 non-null  float64
+    14  handMagne3   904602 non-null  float64
+    15  subject_id   904602 non-null  int64  
+    dtypes: float64(14), int64(2)
+    memory usage: 110.4 MB
