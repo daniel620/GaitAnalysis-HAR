@@ -2,6 +2,8 @@ PAMAP2 CleanedData.csv
 
 Raw data that not been regulized
 
+Sampling frequncy is 100 Hz
+
 Shape = (904602, 16)
 
 Keys = ['timestamp', 'activityID', 'heartrate', 'handAcc16_1', 'handAcc16_2',
