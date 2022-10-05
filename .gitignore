@@ -3,7 +3,8 @@
 */.DS_Store 
 
 # Data
-PAMAP2/data/CleanedData.csv
+!PAMAP2/data/info.txt
+PAMAP2/data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
