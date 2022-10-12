@@ -1,0 +1,11 @@
+1.Live analysis 
+2.train forward dataset.
+3.continue model.
+4.Spiral model. Test each modules.
+5.Gait metrics
+stride/ stride time/ how stable walking./ how fast/ Tag activity
+measure.
+spine patients conditions/ Exploring different metrics of those 
+Accurate! Assist
+Evaluate time spent laying/standing/walking
+    Aggregate data/
